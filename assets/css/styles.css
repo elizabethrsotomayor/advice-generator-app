@@ -1,0 +1,109 @@
+/********************************/
+/* GENERAL STYLES */
+/********************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Manrope", sans-serif;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: calc(28rem / 16);
+  color: hsl(193, 38%, 86%);
+  margin-top: 1.2rem;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+}
+
+.card {
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  width: 50%;
+  padding: 3rem;
+  border-radius: 20px;
+  position: relative;
+}
+
+.advice-id {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.dividers {
+  margin-top: 2.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.dice-icon {
+  margin: auto;
+}
+
+.dice-container {
+  border-radius: 9999em;
+  margin: auto;
+  background-color: hsl(150, 100%, 66%);
+  padding: 1.2rem;
+  position: absolute;
+  left: 43%;
+  bottom: -8%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*****************************/
+/* DESKTOP STYLES */
+/*****************************/
+@media (min-width: 50em) {
+  .mobile-divider {
+    display: none;
+  }
+}
+
+/*****************************/
+/* MOBILE STYLES */
+/*****************************/
+@media (min-width: 23em) and (max-width: 50em) {
+  .desktop-divider {
+    display: none;
+  }
+}
