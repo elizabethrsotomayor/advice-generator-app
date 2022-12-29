@@ -97,6 +97,18 @@ h1 {
   .mobile-divider {
     display: none;
   }
+
+  .desktop-divider {
+    margin: auto;
+    text-align: center;
+  }
+
+  .dice-container:hover {
+    box-shadow: hsl(150, 100%, 66%, 0.25) 0px 25px 25px,
+      hsl(150, 100%, 66%, 0.12) 0px -12px 25px,
+      hsl(150, 100%, 66%, 0.12) 0px 4px 25px,
+      hsl(150, 100%, 66%, 0.12) 0px 4px 25px;
+  }
 }
 
 /*****************************/
