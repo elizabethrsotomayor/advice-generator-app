@@ -31,9 +31,6 @@ svg {
 
 h1 {
   overflow-wrap: break-word;
-}
-
-h1 {
   font-size: calc(28rem / 16);
   color: hsl(193, 38%, 86%);
   margin-top: 1.2rem;
